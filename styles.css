@@ -25,10 +25,22 @@ main {
 
 section.top {
   background: hsl(228, 56%, 26%);
-  width: 80%;
-  border-radius: 2px 5em 2px 2px;
-  padding: 0.5em;
+  min-width: 70%;
+  border-radius: 12px 5em 12px 12px;
+  padding: 2em 2.5em;
   margin: 1em;
+}
+
+div.main-menu-wrapper {
+  margin-top: 1.75em;
+}
+
+img.menu-icon {
+  padding: 0.85em;
+  background: hsl(229, 57%, 11%);
+  margin: 0 0.5em 0 0;
+  border-radius: 10px;
+  width: 1.2rem;
 }
 
 section.storage {

@@ -1,0 +1,53 @@
+/* General Styles */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("images/bg-mobile.png") no-repeat center fixed;
+  background-size: cover;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+section.top {
+  background: hsl(228, 56%, 26%);
+  width: 80%;
+  border-radius: 2px 5em 2px 2px;
+  padding: 0.5em;
+  margin: 1em;
+}
+
+section.storage {
+  background: hsl(228, 56%, 26%);
+}
+
+footer {
+  font-size: 11px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.7);
+  color: hsl(228, 56%, 26%);
+  padding: 2em;
+}
+footer a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width: 375px) {
+  body {
+    background-image: url("images/bg-desktop.png");
+  }
+}

@@ -167,6 +167,11 @@ footer a {
     background-image: url("images/bg-desktop.png");
   }
 
+  main {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+
   section.top {
     min-width: 20%;
     width: 16rem;

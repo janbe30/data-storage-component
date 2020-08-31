@@ -35,6 +35,7 @@ section.storage {
 
 div.main-menu-wrapper {
   margin-top: 1.75em;
+  display: flex;
 }
 
 div.menu-item {

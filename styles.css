@@ -47,6 +47,7 @@ img.menu-icon {
 
 section.storage {
   border-radius: 12px;
+  text-align: center;
 }
 
 div.outer-bar {
@@ -74,10 +75,20 @@ div.inner-bar {
   background: #fff;
   /* width: 8em; */
   color: hsl(229, 57%, 11%);
-  font-size: 2.5rem;
+  font-size: 2.75rem;
   padding: 0.5em 1em;
   text-align: center;
   border-radius: 12px;
+  font-weight: 700;
+}
+
+#gbLeft span {
+  font-size: 1rem;
+  color: hsl(229, 7%, 55%);
+  text-transform: uppercase;
+  /* margin: 1em 0.25em 3em; */
+  display: inline-block;
+  line-height: 2em;
 }
 
 footer {

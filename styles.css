@@ -74,6 +74,18 @@ div.outer-bar::before {
   border-radius: 1em;
 }
 
+div.outer-bar::after {
+  content: "";
+  width: 0.8em;
+  height: 0.8em;
+  background: #fff;
+  top: 0.375em;
+  right: 3.4em;
+  border-radius: 100%;
+  display: inline-block;
+  position: absolute;
+}
+
 /* div.inner-bar {
   width: 81%;
   height: 1.05em;
@@ -83,7 +95,7 @@ div.outer-bar::before {
   top: 0.25em;
   left: 0.25em;
   border-radius: 1em;
-} */
+} 
 
 div.outer-bar::after {
   content: "";
@@ -95,13 +107,15 @@ div.outer-bar::after {
   border-radius: 100%;
   display: inline-block;
   position: relative;
-}
+} */
 
 div.storage-limits {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   margin-top: -1.2em;
+  font-weight: 700;
+  font-size: 0.9em;
 }
 
 #gbLeft {

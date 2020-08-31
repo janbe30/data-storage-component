@@ -174,6 +174,7 @@ footer a {
 
   section.storage {
     width: 32rem;
+    min-width: auto;
     text-align: left;
     padding: 1em 2em;
   }

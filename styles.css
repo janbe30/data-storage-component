@@ -48,6 +48,8 @@ img.menu-icon {
 section.storage {
   border-radius: 12px;
   text-align: center;
+  position: relative;
+  margin-top: 0.5em;
 }
 
 div.outer-bar {
@@ -71,6 +73,25 @@ div.inner-bar {
   border-radius: 1em;
 }
 
+div.inner-bar::after {
+  content: "";
+  width: 0.8em;
+  height: 0.8em;
+  background: #fff;
+  top: -0.02rem;
+  right: -6.5rem;
+  border-radius: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+div.storage-limits {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: -1.2em;
+}
+
 #gbLeft {
   background: #fff;
   /* width: 8em; */
@@ -80,6 +101,9 @@ div.inner-bar {
   text-align: center;
   border-radius: 12px;
   font-weight: 700;
+  position: absolute;
+  top: 2.85em;
+  left: 18%;
 }
 
 #gbLeft span {

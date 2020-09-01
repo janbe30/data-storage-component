@@ -169,7 +169,6 @@ footer a {
 
   main {
     flex-direction: row;
-    align-items: flex-end;
   }
 
   section.top {

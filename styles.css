@@ -165,6 +165,9 @@ footer a {
 @media only screen and (min-width: 375px) {
   body {
     background-image: url("images/bg-desktop.png");
+    background-size: 100% 54%;
+    background-color: hsl(229, 57%, 11%);
+    background-position: left bottom;
   }
 
   main {
@@ -182,7 +185,7 @@ footer a {
     min-width: auto;
     text-align: left;
     padding: 1em 2em;
-    margin-top: 2.5em;
+    margin-top: 3.8rem;
   }
 
   div.outer-bar {
